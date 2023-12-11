@@ -32,9 +32,9 @@ To run the service using Docker:
 2. Run the Docker container:
     ```
      docker run -d --name weather_app -p 8000:80 weather_app
-3. Stop the Docker container
+3. Remove the existing container:
     ```
-    docker stop weather_app
+    docker rm weather_app
 ### Used web services
 * [Tomorrow.io](https://www.tomorrow.io/weather-api/)
 * [WeatherAPI](https://www.weatherapi.com)
