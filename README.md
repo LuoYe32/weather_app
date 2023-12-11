@@ -2,8 +2,6 @@
 
 This service provides weather information using FastAPI.
 
----
-
 ## Setup
 
 1. Install dependencies:
